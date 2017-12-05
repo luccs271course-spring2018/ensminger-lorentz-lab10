@@ -31,5 +31,46 @@ public class Main {
    myMap.addEdge(HR, SI);
    myMap.addEdge(SI, AT);
    myMap.addEdge(AT, SK);
+   System.out.println(myMap);
+   final Iterator<String> bf = new BreadthFirstIterator<>(myMap, HU);
+   while (bf.hasNext()) {
+      final String country = bf.next();
+      System.out.println(country);
+   }
+   final Iterator<String> bt = new BreadthFirstIterator<>(myMap, SK);
+   while (bf.hasNext()) {
+    final String country = bf.next();
+    System.out.println(country);
+ }
+  final Iterator<String> cf = new ClosestFirstIterator<>(myMap, HU);
+ while (cf.hasNext()) {
+   final String country = cf.next();
+    System.out.println(country);
+ }
+   final Iterator<String> ct = new ClosestFirstIterator<>(myMap, SK);
+ while (bf.hasNext()) {
+   final String country = bf.next();
+   System.out.println(country);
+ }
+ final Iterator<String> df = new DepthFirstIterator<>(myMap, HU);
+ while (cf.hasNext()) {
+   final String country = cf.next();
+    System.out.println(country);
+ }
+   final Iterator<String> dt = new DepthFirstIterator<>(myMap, SK);
+ while (bf.hasNext()) {
+   final String country = bf.next();
+   System.out.println(country);
+ }
+ final Iterator<String> rf = new RandomWalkIterator<>(myMap, HU);
+ while (cf.hasNext()) {
+   final String country = cf.next();
+    System.out.println(country);
+ }
+   final Iterator<String> rt = new RandomWalkIterator<>(myMap, SK);
+ while (bf.hasNext()) {
+   final String country = bf.next();
+   System.out.println(country);
+ }
   }
 }
