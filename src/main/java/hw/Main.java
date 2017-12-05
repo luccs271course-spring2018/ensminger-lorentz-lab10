@@ -5,10 +5,12 @@ import java.util.Arrays;
 public class Main {
 
   public static void main(final String[] args) {
-    System.out.println("args = " + Arrays.asList(args));
-    final HelloWorld instance = new HelloWorld();
-    System.out.println(instance.getMessage());
-    System.out.println(instance.getYear());
-    System.out.println("bye for now");
+   final static String HU = "Hungary";
+   final static String SK = "Slovakia";
+   final static String RO = "Romania";
+   final static String RS = "Serbia";
+   final static String HR = "Croatia";
+   final static String SI = "Slovenia";
+   final static String AT = "Austria";
   }
 }
