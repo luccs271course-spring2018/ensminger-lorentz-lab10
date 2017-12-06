@@ -19,7 +19,7 @@ jar {
     manifest {
         attributes 'Main-Class': mainClassName
     }
-}    
+}
 
 repositories {
     jcenter()
@@ -27,24 +27,13 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.+'
-    <dependency>
-    <groupId>org.jgrapht</groupId>
-    <artifactId>jgrapht-core</artifactId>
-    <version>1.1.0</version>
-</dependency>
-'org.jgrapht:jgrapht-core:jar:1.1.0'
-<dependency org="org.jgrapht" name="jgrapht-core" rev="1.1.0" />
-@Grapes( 
-@Grab(group='org.jgrapht', module='jgrapht-core', version='1.1.0') 
-)
-compile 'org.jgrapht:jgrapht-core:1.1.0'
-libraryDependencies += "org.jgrapht" % "jgrapht-core" % "1.1.0"
-[org.jgrapht/jgrapht-core "1.1.0"]
+    compile group: 'org.jgrapht', name: 'jgrapht-core', version: '1.1.0'
+
 
 }
 
-tasks.withType(JavaCompile) { 
-    options.compilerArgs << "-Xlint:all" 
+tasks.withType(JavaCompile) {
+    options.compilerArgs << "-Xlint:all"
 }
 
 tasks.withType(JavaExec) {
