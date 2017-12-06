@@ -13,6 +13,8 @@ Breadth first HU start Croatia | Breadth first SK start Serbia
 Breadth first HU start Slovenia | Breadth first SK start Croatia
 Breadth first HU start Austria | Breadth first SK start Slovenia
 
+> Three of the values are in the same order Serbia Croatia Slovenia
+
 HU | SK
 --- | ---
 Closest first HU start Hungary | Closest first SK start Slovakia
@@ -23,6 +25,8 @@ Closest first HU start Croatia | Closest first SK start Slovenia
 Closest first HU start Slovenia | Closest first SK start Serbia
 Closest first HU start Austria | Closest first SK start Croatia
 
+> None of the values are in the same order between the two starting points
+
 HU | SK
 --- | ---
 Depth first HU start Hungary | Depth first SK start Slovakia
@@ -32,6 +36,8 @@ Depth first HU start Croatia | Depth first SK start Croatia
 Depth first HU start Serbia | Depth first SK start Slovenia
 Depth first HU start Romania | Depth first SK start Austria
 Depth first HU start Slovakia | Depth first SK start Hungary
+
+> Each list is the reverse of the other
 
 HU | SK
 --- | ---
@@ -47,3 +53,5 @@ Random walk HU start Romania | Random walk SK start Hungary
 Random walk HU start Slovakia | Random walk SK start Romania
 Random walk HU start Austria | Random walk SK start Hungary
 Random walk HU start Hungary | Random walk SK start Slovakia
+
+> No values are in the same order in relation to the two start points
