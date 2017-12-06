@@ -2,13 +2,20 @@
 ## Lab 10 Ensminger Lorentz
 
 "Written part: Discuss the differences among the results. Does the starting point make a difference?"
->Breadth first HU start Hungary   Breadth first SK start Slovakia
-  Breadth first HU start Slovakia   Breadth first SK start Hungary
-  Breadth first HU start Romania   Breadth first SK start Austria
-  Breadth first HU start Serbia   Breadth first SK start Romania
-  Breadth first HU start Croatia   Breadth first SK start Serbia
-  Breadth first HU start Slovenia   Breadth first SK start Croatia
-  Breadth first HU start Austria   Breadth first SK start Slovenia
+>Breadth first HU start Hungary  
+  Breadth first SK start Slovakia
+  Breadth first HU start Slovakia  
+  Breadth first SK start Hungary
+  Breadth first HU start Romania   
+  Breadth first SK start Austria
+  Breadth first HU start Serbia  
+  Breadth first SK start Romania
+  Breadth first HU start Croatia  
+  Breadth first SK start Serbia
+  Breadth first HU start Slovenia
+  Breadth first SK start Croatia
+  Breadth first HU start Austria
+  Breadth first SK start Slovenia
 
 
 >Closest first HU start Hungary   Closest first SK start Slovakia
