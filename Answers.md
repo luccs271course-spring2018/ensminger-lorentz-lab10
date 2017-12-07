@@ -55,3 +55,12 @@ Random walk HU start Austria | Random walk SK start Hungary
 Random walk HU start Hungary | Random walk SK start Slovakia
 
 > No values are in the same order in relation to the two start points
+
+"Written part: Give two or three examples of how/why a real-world map might require more than four colors."
+Our map only requires 3 colors.
+If there was graph that was not planar and on a 3D plane in which there was a spherical map configured in a way where there is a 
+spherical center with an outer layer situated in such a way where enugh sections touch on the outside and touch the inner sphere
+requiring more than 4 colors. On a world map, it appears that austria and its surrounding countries require more than four colors.
+However, the four color theorem proves that while austria shares a border with 7 countries, no more that three of its countries share
+a boarder with each other. If four of ts bored countres also shared boarders with each other then the map would require five
+colors.
