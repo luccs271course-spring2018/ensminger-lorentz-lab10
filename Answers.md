@@ -63,4 +63,5 @@ spherical center with an outer layer situated in such a way where enugh sections
 requiring more than 4 colors. On a world map, it appears that austria and its surrounding countries require more than four colors.
 However, the four color theorem proves that while austria shares a border with 7 countries, no more that three of its countries share
 a boarder with each other. If four of ts bored countres also shared boarders with each other then the map would require five
-colors.
+colors. Basically any map where four eements around the center element all touch each other and the center element would require
+five colors.
